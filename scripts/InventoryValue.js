@@ -5,6 +5,8 @@
 // @description  Calculate the Inventory Value
 // @author       Manito
 // @match        *://*.gladiatus.gameforge.com/game/index.php?mod=overview*
+// @downloadURL  https://github.com/manitoramos/GladiatusScripts/raw/main/scripts/InventoryValue.js
+// @updateURL    https://github.com/manitoramos/GladiatusScripts/raw/main/scripts/InventoryValue.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=gameforge.com
 // @grant        none
 // ==/UserScript==
