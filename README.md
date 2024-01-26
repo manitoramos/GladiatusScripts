@@ -9,7 +9,7 @@ Installation:
 1. Install tampermonkey addon: http://tampermonkey.net/
 2. After installation click here: https://github.com/manitoramos/GladiatusScripts/raw/main/scripts/user/InventoryValue.user.js and press install.
 
-![N|Solid](https://prnt.sc/qlacY7d-FD1H)
+![N|Solid](https://raw.githubusercontent.com/manitoramos/GladiatusScripts/main/assets/InventoryValue.png)
 
 Bugs:
 ---------
