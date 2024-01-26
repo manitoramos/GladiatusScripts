@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      2024-01-25
 // @description  Calculate the Inventory Value
-// @author       Manito
+// @author       Manito Ramos
 // @match        *://*.gladiatus.gameforge.com/game/index.php?mod=overview*
 // @downloadURL  https://github.com/manitoramos/GladiatusScripts/raw/main/scripts/InventoryValue.js
 // @updateURL    https://github.com/manitoramos/GladiatusScripts/raw/main/scripts/InventoryValue.js
