@@ -21,17 +21,7 @@
     function calcInv(){
         let value = 0
         document.querySelectorAll("#inv .ui-draggable-handle").forEach(e => {
-            let array = e.getAttribute("data-tooltip").match(/\[.*?]/gs)
-            try{
-                array.forEach(e => {
-                    if(e.includes("icon_gold")){
-                        value += parseInt(e.match(/\d+\.\d+|\d+/)[0].replace(".", ""))
-                        return;
-                    }
-                })
-            }catch(e){
-                //console.log(array,e)//for debug
-            }
+            value += parseInt(e.getAttribute("data-tooltip").match(/\d+\.\d+ <div|\d+ <div/gs)[0].replace(".", ""))
         })
         value = "Inventory Value: " + formatMoney(value)
         if(document.querySelector(".inv_value") == null){
