@@ -36,9 +36,9 @@
         value = "Inventory Value: " + formatMoney(value)
         if(document.querySelector(".inv_value") == null){
             document.querySelector("#inv").insertAdjacentHTML('afterend', `<div style="text-align: center;height: 18px;width: 256px;margin: 5px 20px;">
-            <span style="width:256px; text-align:center; color: rgb(0, 128, 0);" class="bag_duration inv_value">${value}</span></div>`)
+            <div style="width:256px; text-align:center; color: rgb(0, 128, 0);" class="bag_duration inv_value">${value} <img alt="" src="//gf1.geo.gfsrv.net/cdn6b/71e68d38f81ee6f96a618f33c672e0.gif" title="Ouro" align="absmiddle" border="0"></div></div>`)
         }else{
-            document.querySelector(".inv_value").innerText = value
+            document.querySelector(".inv_value").innerHTML = value + ' <img alt="" src="//gf1.geo.gfsrv.net/cdn6b/71e68d38f81ee6f96a618f33c672e0.gif" title="Ouro" align="absmiddle" border="0">'
         }
     }
     calcInv()
